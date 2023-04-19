@@ -1,0 +1,96 @@
+/* FONTS: Roboto, Montserrat, Open Sans, Source Sans Pro, Poppins*/
+@font-face {
+    font-family: 'SF Pro Regular';
+    src: url('assets/SFPRODISPLAYREGULAR.OTF') format('woff2'),
+         url('assets/SFPRODISPLAYREGULAR.OTF') format('woff');
+  }
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('assets/SFPROTEXT-REGULAR.ttf') format('woff2'),
+         url('assets/SFPROTEXT-REGULAR.ttf') format('woff');
+  }
+
+
+/*GERAL*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: #6E6E73;
+}
+
+/*BOX*/
+body{
+    background-color: black;
+}
+header{
+    background-color: aliceblue;
+    height: 500px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  aliceblue;
+    height: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+nav:hover{
+    max-width: 1000px;
+    padding: 20px;
+    transition: 0.5s;
+}
+article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 1000px;
+    margin: 100px auto 0 auto ;
+
+}
+#block-one{
+    max-width: 500px;
+}
+#help, #more{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+/*IMAGENS*/
+.logo{
+    width: 30px;
+}
+.foto{
+    width: 30px;
+}
+
+
+/*TEXTO*/
+li{
+    list-style: none;
+    font-size: 20px;
+}
+li > a{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3{
+    font-family: SF Pro;
+}
+h2{
+    color: white;
+    font-size: 48px;
+}
+p{
+    font-family: SF Pro Text;
+    color: black;
+}
+span{
+    color: black;
+}
